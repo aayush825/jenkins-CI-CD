@@ -1,0 +1,24 @@
+{
+  "name": "jenkins-ci-cd",
+  "version": "1.0.0",
+  "description": "Simple Node.js backend for Jenkins CI/CD learning lab",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "jenkins",
+    "node",
+    "express",
+    "jest"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
